@@ -4,7 +4,7 @@
 
 ---
 
-## English overview (for GitHub & international users)
+## English overview
 
 ### Why use it?
 
