@@ -188,8 +188,8 @@ mobile-menu-bar/
 ## 📞 پشتیبانی
 
 برای هرگونه سوال یا مشکل:
-- ایمیل: support@example.com
-- وبسایت: https://example.com
+- ایمیل: info@ariacoder.ir
+- وبسایت: https://ariacoder.ir
 
 ## 📄 لایسنس
 
