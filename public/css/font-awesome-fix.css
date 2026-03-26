@@ -1,0 +1,55 @@
+/* رفع مشکل Font Awesome در فرانت */
+
+/* اطمینان از بارگذاری Font Awesome */
+.mmb-mobile-menu-bar i[class*="fa-"] {
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
+    font-weight: 900 !important;
+    font-style: normal !important;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.mmb-mobile-menu-bar i[class*="fa-"]::before {
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
+    font-weight: 900 !important;
+}
+
+/* رفع تداخل با فونت وزیر */
+.mmb-mobile-menu-bar .mmb-icon-wrapper i {
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
+}
+
+/* کلاس‌های مختلف Font Awesome */
+.mmb-mobile-menu-bar .fas,
+.mmb-mobile-menu-bar .far,
+.mmb-mobile-menu-bar .fab,
+.mmb-mobile-menu-bar .fa {
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
+    font-weight: 900 !important;
+}
+
+.mmb-mobile-menu-bar .far {
+    font-weight: 400 !important;
+}
+
+.mmb-mobile-menu-bar .fab {
+    font-family: "Font Awesome 6 Brands" !important;
+    font-weight: 400 !important;
+}
+
+/* اطمینان از نمایش صحیح آیکون */
+.mmb-mobile-menu-bar .mmb-icon-wrapper {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.mmb-mobile-menu-bar .mmb-icon-wrapper i {
+    display: block;
+    line-height: 1;
+}
+
